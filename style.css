@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+body {
+  font-family:"Bree serif";
+  margin: 0;
+  text-align: center;
+  color: #fff; /* remove this later */
+  background: linear-gradient(35deg, #3494dd 45%, #000000 60%);
+  overflow: scroll;
+}
+.keys {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 600px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.key {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+  float: left;
+  transition: all 0.07s;
+  border-radius: 5px;
+  background: rgb(240, 249, 255);;
+  background: 
+  radial-gradient(
+    ellipse at center,
+    rgba(240, 249, 255, 1) 0%,
+    rgba(99, 99, 99, 1) 100%);
+}
+.first-page{
+    height: 100%;
+    width:100%;
+}
+.playing {
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+    background: rgb(240, 249, 255);
+    background: radial-gradient(
+      ellipse at center,
+      rgba(240, 249, 255, 1) 0%,
+      rgba(0, 180, 227, 1) 100%
+    );
+}
+
+kbd {
+  display: block;
+  padding-top: 30px;
+  font-size: 60px;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgb(35, 215, 255);
+}
+.sound{
+    display: block;
+    padding-top: 5px;
+    font-size: 30px;
+    color: transparent;
+    text-shadow: 1px 1px 2px cyan;
+}
+.head{
+    display: flex;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    position: fixed;
+    height: 100%;
+    top:0;
+    left: 0;
+    padding:20px;
+    text-decoration: none;
+    display: inline-block;
+    height: auto;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+ 
+  }
+  .nav-list {
+    display: flex;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+    text-align: justify;
+  }
+  li {
+    height: 100%;
+    margin: 1rem;
+  }
+  .nav-list a:hover {
+    background-color: #3494dd;
+  }
+ 
+  ul {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+  }
+/*student details section*/
+  .student-profile .card {
+    border-radius: 10px;
+  }
+  
+  .student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+  }
+  .degree{
+    text-decoration-line: overline; 
+  }
+  .student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .student-profile .card p {
+    font-size: 16px;
+    color:white;
+  }
+  
+  .student-profile .table th,
+  .student-profile .table td {
+    font-size: 14px;
+    padding:5px;
+    
+    border-color: white;
+  }
+  .card{
+    justify-content: center;
+    color: white;
+    margin: top 40px;;
+    margin-bottom: 40px;
+    margin-left:220px;
+    margin-right:220px;
+
+  }
+/*contact section*/
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  
+  /* Footer */
+  
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgb(0, 0, 0);
+    border-top: 5px solid rgb(255, 255, 255);
+    width:100%;
+  }
+.footer-name{
+    font-size: large;
+}
+    footer i {
+    vertical-align: middle;
+  }
+  
+  
